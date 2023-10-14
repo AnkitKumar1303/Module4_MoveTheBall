@@ -1,0 +1,27 @@
+#ball{
+    background-color: greenyellow;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    display: inline;
+    padding-left: 53px;
+    padding-top: 60px;
+    float: left;
+    box-sizing: border-box;
+    border: 5px solid black;
+    box-shadow: 5px 8px 10px 1px rgb(255,255,255,0.5);
+    font-weight: 700;
+    font-size: 20px;
+    color: darkblue;
+    text-shadow: 2px 0px 4px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 20s;
+}
+@keyframes example {
+    from {background-color: white;}
+    to {background-color: black;}
+  }
